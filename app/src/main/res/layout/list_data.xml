@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/NIM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textSize="17sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/NIM"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/prodi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prodi"
+        android:textSize="17sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/nama"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/id_mahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID Mahasiswa"
+        android:textSize="15sp"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/id_prodi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID Prodi"
+        android:textSize="15sp"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imgEdit"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_edit"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="10dp"
+        tools:ignore="ContentDescription" />
+
+
+
+</RelativeLayout>
